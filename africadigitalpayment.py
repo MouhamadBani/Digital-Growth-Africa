@@ -35,7 +35,7 @@ africa_countries = {
 }
 
 # Streamlit UI
-st.markdown("<h1 style='text-align: center; color: red;'> Africa Digital payments Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'> Africa Digital Payments Dashboard</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Tracking digital payments growth in Africa </p>", unsafe_allow_html=True)
 
 # Sidebar - Country Selection
