@@ -36,7 +36,7 @@ africa_countries = {
 
 # Streamlit UI
 st.markdown("<h1 style='text-align: center; color: red;'> Africa Digital payments Dashboard</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>Tracking digital payments, fintech growth, and crypto adoption.</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>Tracking digital payments growth in Africa </p>", unsafe_allow_html=True)
 
 # Sidebar - Country Selection
 country = st.sidebar.selectbox("🌍 **Select a Country**", list(africa_countries.keys()))
@@ -115,7 +115,7 @@ if not df_map.empty:
     fig_map = px.choropleth(df_map, locations="iso_code",
                              locationmode="ISO-3",
                              color="fintech_adoption",
-                             title="Fintech Adoption Rate in Africa",
+                             title="Digital Payment Adoption Rate in Africa",
                              projection="natural earth",
                              scope="africa",
                              color_continuous_scale="Viridis",  
